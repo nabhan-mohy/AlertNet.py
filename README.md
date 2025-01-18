@@ -28,10 +28,10 @@ AlertNet is a Python-based Intrusion Detection System (IDS) designed to monitor 
    ```bash
    git clone https://github.com/nabhan-mohy/AlertNet.git
    cd AlertNet
-python -m venv env
-source env/bin/activate  # For Linux/Mac
-env\Scripts\activate     # For Windows
-nmap -sS -p 21,22 <target_IP>
+2. python -m venv env
+3. source env/bin/activate  # For Linux/Mac
+4. env\Scripts\activate     # For Windows
+5. nmap -sS -p 21,22 <target_IP>
 File Structure
 IDS.py: Main script.
 
